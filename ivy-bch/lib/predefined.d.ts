@@ -15,6 +15,7 @@ export declare const DEMO_CONTRACTS: {
     RevealFixedPoint: string;
     LockWithData: string;
     RevealNumber: string;
+    CheckDataSig: string;
 };
 export declare const TEST_CONTRACT_ARGS: {
     LockWithPublicKey: (number | Buffer)[];
@@ -76,6 +77,7 @@ export declare const TEST_CASES: {
     HTLC: string;
     RevealFixedPoint: string;
     LockWithData: string;
+    CheckDataSig: string;
 };
 export declare const TEST_SPEND_ARGUMENTS: {
     LockWithMultisig: string[];
