@@ -18,7 +18,8 @@ export const DEMO_ID_LIST = [
   "TransferWithTimeout",
   "EscrowWithDelay",
   "VaultSpend",
-  "HTLC"
+  "HTLC",
+  "CheckDataSig"
 ]
 
 export const DEMO_CONTRACTS = {
@@ -174,6 +175,17 @@ RevealNumber: `contract RevealNumber(num: Integer, val: Value,str2:Bytes) {
     verify num > num2
     verify cat(str1,str2)
     verify num2 < 5
+    unlock val
+  }
+}`,
+CheckDataSig: `contract CheckDataSig(
+  pubKeyHash: Ripemd160(Sha256(PublicKey)),
+  data: Bytes,
+  val: Value
+) {
+  clause spend(pubKey: PublicKey, sig: Signature) {
+    verify ripemd160(sha256(pubKey)) == pubKeyHash
+    verify checkDataSig(pubKey,data,sig)
     unlock val
   }
 }`
