@@ -18,7 +18,6 @@ const LockButton = (props: {
   isTwo?: boolean
 }) => {
   const { isTwo } = props
-  console.log('createability2', props.createability2)
   const button = (
     <button
       className="btn btn-primary btn-lg form-button"

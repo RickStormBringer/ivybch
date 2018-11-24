@@ -36,6 +36,12 @@ const Navbar = (props: { path: string }) => {
           effect="solid"
         />
         <ul className="nav navbar-nav navbar-right">
+            <li>
+                <a href="https://github.com/copernet/ivybch" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="https://ivy.copernet.io/docs" target="_blank">Docs</a>
+            </li>
           <li>
             <Link to="/create">Create Contract</Link>
           </li>

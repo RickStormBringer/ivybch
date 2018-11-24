@@ -21,7 +21,7 @@ const OpcodesUnconnected = ({ opcodes, isBch }) => {
   return (
     <div className="panel-body inner">
       <h1>
-          {isBch ? 'Bitcoin Cash Script' : 'Bitcoin Script'}
+          Bitcoin Cash Script
       </h1>
       <pre className="wrap">{opcodes.join(" ")}</pre>
     </div>

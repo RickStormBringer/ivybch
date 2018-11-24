@@ -19,7 +19,7 @@ import {
   toSighash,
   createSignature,
   crypto
-} from "ivy-bitcoin"
+} from "ivy-bch"
 
 const source = `contract LockWithPublicKey(publicKey: PublicKey, val: Value) {
   clause spend(sig: Signature) {

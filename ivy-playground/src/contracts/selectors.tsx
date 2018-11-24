@@ -20,7 +20,7 @@ import {
   isValidInput
 } from "../inputs/data"
 
-import { createSignature, fulfill, spend, toSighash } from "ivy-bitcoin"
+import { createSignature, fulfill, spend, toSighash } from "ivy-bch"
 
 // internal imports
 import { Contract, ContractMap, ContractsState } from "./types"
@@ -179,7 +179,6 @@ export const getSpendingLocktime = createSelector(
     try {
       return getData("transactionDetails.lockTimeInput", spendInputMap)
     } catch (e) {
-      console.log(e)
       return undefined
     }
   }
@@ -192,7 +191,6 @@ export const getSpendingSequenceNumber = createSelector(
       const sequenceNumber = getSequence(spendInputMap)
       return sequenceNumber
     } catch (e) {
-      console.log(e)
       return undefined
     }
   }
@@ -261,7 +259,6 @@ export const getSpendInputValues = createSelector(
       }
       return spendInputValues
     } catch (e) {
-      // console.log(e)
       return undefined
     }
   }
@@ -281,20 +278,20 @@ export const getSignatureData = (
   return sig ? sig.toString("hex") : undefined
 }
 
-export const getRedeemScript = createSelector(
-  getSpendContract,
-  spendContract => spendContract.instantiated.redeemScript
-)
+// export const getRedeemScript = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.redeemScript
+// )
 
-export const getWitnessScript = createSelector(
-  getSpendContract,
-  spendContract => spendContract.instantiated.witnessScript
-)
+// export const getWitnessScript = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.witnessScript
+// )
 
-export const getScriptSig = createSelector(
-  getSpendContract,
-  spendContract => spendContract.instantiated.scriptSig
-)
+// export const getScriptSig = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.scriptSig
+// )
 
 export const getFulfilledSpendTransaction = createSelector(
   getInstantiated,
@@ -314,10 +311,6 @@ export const getFulfilledSpendTransaction = createSelector(
     ) {
       return undefined
     }
-    console.log('参数',instantiated)
-    console.log('参数',unfulfilledSpendTransaction)
-    console.log('参数',witnessArgs)
-    console.log('参数',spendClauseArgument)
     const spendTransaction = fulfill(
       instantiated,
       unfulfilledSpendTransaction,
@@ -367,7 +360,6 @@ export const getResult = createSelector(
     try {
       tx.check()
     } catch (e) {
-      console.log(e)
       return {
         success: false,
         style: "danger",
@@ -390,7 +382,6 @@ export const areSpendInputsValid = createSelector(
       })
       return true
     } catch (e) {
-      // console.log(e)
       return false
     }
   }

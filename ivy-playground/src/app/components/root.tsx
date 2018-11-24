@@ -12,10 +12,10 @@ export default function Root(props: Props) {
       <div className="container fixedcontainer">{props.children}</div>
       <footer className="page-footer">
         <div className="container fixedcontainer">
-          <hr />
-          &copy; 2017 Chain Inc. Built using <a href="http://bcoin.io">
-            bcoin
-          </a>.
+          {/*<hr />*/}
+          {/*&copy; 2017 Chain Inc. Built using <a href="http://bcoin.io">*/}
+            {/*bcoin*/}
+          {/*</a>.*/}
         </div>
       </footer>
     </div>

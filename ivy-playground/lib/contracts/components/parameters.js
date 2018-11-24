@@ -7,7 +7,7 @@ var __rest = (this && this.__rest) || function (s, e) {
             t[p[i]] = s[p[i]];
     return t;
 };
-import { typeToString } from "ivy-bitcoin";
+import { typeToString } from "ivy-bch";
 import * as momentImport from "moment";
 // external imports
 import React from "react";
@@ -36,7 +36,6 @@ function ParameterWidget(props) {
     // handle the fact that clause arguments look like spend.sig rather than sig
     const parameterName = getParameterIdentifier(props.input);
     const valueType = typeToString(props.input.valueType);
-    console.log(props.input);
     return (React.createElement("div", { key: props.input.name },
         React.createElement("label", null,
             parameterName,
@@ -118,7 +117,7 @@ function BytesWidget2(props) {
 function ProvidePrivateKeyWidget(props) {
     return (React.createElement("div", null,
         React.createElement(TextWidget, { input: props.input, handleChange: props.handleChange }),
-        React.createElement(HelpBlock, null, "(Do not paste your own Bitcoin private key here)")));
+        React.createElement(HelpBlock, null, "(Do not paste your own Bitcoin Cash private key here)")));
 }
 function TextWidget(props) {
     return (React.createElement(FormControl, { type: "text", key: props.input.name, className: "form-control string-input", value: props.input.value, onChange: props.handleChange }));

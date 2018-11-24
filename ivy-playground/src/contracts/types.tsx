@@ -1,39 +1,38 @@
-import { Input, InputMap } from "../inputs/types"
+import {Input, InputMap} from "../inputs/types"
 
-import { Template, TemplateClause } from "../templates/types"
+import {Template, TemplateClause} from "../templates/types"
 
-import { Contract as IvyContract } from "ivy-bitcoin"
+import {Contract as IvyContract} from "ivy-bch"
 
 export interface Contract {
-  // lock tx id
-  id: string
-  unlockTxid?: string
+    // lock tx id
+    id: string
+    unlockTxid?: string
+    // Map of UI Form inputs
+    // used during locking tx.
+    inputMap: InputMap
 
-  // Map of UI Form inputs
-  // used during locking tx.
-  inputMap: InputMap
+    // Map of UI Form inputs
+    // used during unlocking tx.
+    spendInputMap: InputMap
 
-  // Map of UI Form inputs
-  // used during unlocking tx.
-  spendInputMap: InputMap
-
-  // Details on the contract clauses.
-  clauseMap: {
-    [s: string]: TemplateClause
-  }
-  instantiated: IvyContract
+    // Details on the contract clauses.
+    clauseMap: {
+        [s: string]: TemplateClause
+    }
+    instantiated: IvyContract
 }
 
 export interface ContractMap {
-  [s: string]: Contract
+    [s: string]: Contract
 }
 
 export interface ContractsState {
-  contractMap: ContractMap
-  idList: string[]
-  spentIdList: string[]
-  spendContractId: string
-  selectedClauseIndex: number
-  showUnlockInputErrors: boolean
-  error?: string
+    contractMap: ContractMap
+    idList: string[]
+    spentIdList: string[]
+    spendContractId: string
+    selectedClauseIndex: number
+    showUnlockInputErrors: boolean
+    error?: string
 }

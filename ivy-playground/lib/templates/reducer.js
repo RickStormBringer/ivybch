@@ -1,10 +1,10 @@
 // ivy imports
 import { CREATE_CONTRACT, UPDATE_INPUT, UPDATE_INPUT_TWO } from "../contracts/actions";
-import { UPDATE_CHOSEN_TEMPLATE } from "../templates/actions";
 import { generateInputMap } from "../contracts/selectors";
+import { UPDATE_CHOSEN_TEMPLATE } from "../templates/actions";
 // internal imports
-import { DEMO_CONTRACTS, DEMO_ID_LIST } from "ivy-bitcoin";
-import { SAVE_TEMPLATE, SET_SOURCE, SET_SOURCE_TWO, SHOW_LOCK_INPUT_ERRORS, UPDATE_COMPILED, UPDATE_ERROR, UPDATE_COMPILED_TWO } from "./actions";
+import { DEMO_CONTRACTS, DEMO_ID_LIST } from "ivy-bch";
+import { SAVE_TEMPLATE, SET_SOURCE, SET_SOURCE_TWO, SHOW_LOCK_INPUT_ERRORS, UPDATE_COMPILED, UPDATE_COMPILED_TWO, UPDATE_ERROR } from "./actions";
 const INITIAL_STATE = {
     sourceMap: DEMO_CONTRACTS,
     idList: DEMO_ID_LIST,

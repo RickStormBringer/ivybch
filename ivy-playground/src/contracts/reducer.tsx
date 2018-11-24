@@ -1,4 +1,4 @@
-import { instantiate } from "ivy-bitcoin"
+import { instantiate } from "ivy-bch"
 import { addParameterInput } from "../inputs/data"
 import {
   ContractParameterType,
@@ -31,7 +31,7 @@ import {
   Contract as IvyContract,
   TemplateClause,
   Transaction
-} from "ivy-bitcoin"
+} from "ivy-bch"
 
 export const INITIAL_STATE: ContractsState = {
   contractMap: {},
@@ -109,7 +109,6 @@ export default function reducer(
     }
     case CREATE_CONTRACT: {
       const instantiated: IvyContract = action.instantiated
-      console.log('instantiated', instantiated)
       if (instantiated.fundingTransaction === undefined) {
         throw new Error("did not expect funding transaction to be undefined")
       }

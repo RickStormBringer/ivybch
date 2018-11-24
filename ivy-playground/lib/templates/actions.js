@@ -1,5 +1,5 @@
 // internal imports
-import { compile, DEMO_ID_LIST } from "ivy-bitcoin";
+import { compile, DEMO_ID_LIST } from "ivy-bch";
 import { getSourceMap } from "./selectors";
 export const SHOW_LOCK_INPUT_ERRORS = "templates/SHOW_LOCK_INPUT_ERRORS";
 export const showLockInputErrors = (result) => {
@@ -15,7 +15,7 @@ export const loadTemplate = (selected) => {
         }
         const state = getState();
         const source = getSourceMap(state)[selected];
-        // todo fake source
+        // todo replace fake source
         const source2 = getSourceMap(state).TransferWithTimeout;
         dispatch(setSource(source));
         dispatch(setSourceTwo(source2));

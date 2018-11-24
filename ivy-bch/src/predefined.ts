@@ -8,19 +8,17 @@ import { createSignature, toSighash } from "./spend"
 import { Template } from "./template"
 
 export const DEMO_ID_LIST = [
-  // "LockWithPublicKey",
+  // "LockWithData",
   "LockWithMultisig",
   "LockWithPublicKeyHash",
   "RevealPreimage",
-  // "RevealCollision",
   "RevealFixedPoint",
   "LockUntil",
   "LockDelay",
   "TransferWithTimeout",
   "EscrowWithDelay",
   "VaultSpend",
-  "HTLC",
-  "LockWithData"
+  "HTLC"
 ]
 
 export const DEMO_CONTRACTS = {
@@ -342,7 +340,7 @@ export const TEST_SPEND_ARGUMENTS = {
     generateSignature("LockWithPublicKeyHash", 0)
   ],
   RevealPreimage: [Bytes],
- 
+
   LockUntil: [generateSignature("LockUntil", 0)],
   LockDelay: [generateSignature("LockDelay", 0)],
   TransferWithTimeout: [

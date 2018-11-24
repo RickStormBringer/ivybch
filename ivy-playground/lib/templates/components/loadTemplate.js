@@ -18,7 +18,7 @@ const mapDispatchToProps = dispatch => ({
 });
 const LoadTemplate = ({ idList, selected, handleClick, chooseTem }) => {
     const options = idList.map(id => {
-        // todo 判断key 隐藏output 2
+        // todo  judge key  hide template 2
         return (React.createElement("li", { key: id },
             React.createElement("a", { onClick: e => handleClick(e, id), href: "#" }, id)));
     });

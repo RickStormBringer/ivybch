@@ -1,6 +1,6 @@
 import { push } from "react-router-redux";
 import templates from "../templates";
-import { DEMO_CONTRACTS, DEMO_ID_LIST } from "ivy-bitcoin";
+import { DEMO_CONTRACTS, DEMO_ID_LIST } from "ivy-bch";
 import { updateChosenTemplate, loadTemplate } from "../templates/actions";
 export const RESET = "app/RESET";
 export const reset = () => {

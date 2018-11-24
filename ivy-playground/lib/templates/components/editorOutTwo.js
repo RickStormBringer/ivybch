@@ -5,9 +5,8 @@ import Ace from "./ace";
 // Handles syntax highlighting
 require("../util/ivymode.js");
 const mapStateToProps = state => {
-    console.log(state.templates.sourceMap);
     return {
-        // todo 替换为out2  以及替换pre 的数据
+        // todo replace out2 and pre data
         source: state.templates.sourceMap.TransferWithTimeout,
     };
 };

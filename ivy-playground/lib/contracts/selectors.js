@@ -1,7 +1,7 @@
 // external imports
 import { createSelector } from "reselect";
 import { addParameterInput, getData, getPrivateKeyValue, getSequence } from "../inputs/data";
-import { createSignature, fulfill, spend, toSighash } from "ivy-bitcoin";
+import { createSignature, fulfill, spend, toSighash } from "ivy-bch";
 export const getState = (state) => state.contracts;
 export const getContractIds = createSelector(getState, (state) => state.idList);
 export const getSpentContractIds = createSelector(getState, (state) => state.spentIdList);
@@ -74,7 +74,6 @@ export const getSpendingLocktime = createSelector(getSpendInputMap, spendInputMa
         return getData("transactionDetails.lockTimeInput", spendInputMap);
     }
     catch (e) {
-        console.log(e);
         return undefined;
     }
 });
@@ -84,7 +83,6 @@ export const getSpendingSequenceNumber = createSelector(getSpendInputMap, spendI
         return sequenceNumber;
     }
     catch (e) {
-        console.log(e);
         return undefined;
     }
 });
@@ -109,7 +107,6 @@ export const getSpendInputValues = createSelector(getClauseParameterIds, getSpen
         return spendInputValues;
     }
     catch (e) {
-        // console.log(e)
         return undefined;
     }
 });
@@ -122,19 +119,24 @@ export const getSignatureData = (state, id, inputsById) => {
     const sig = createSignature(sigHash, secret);
     return sig ? sig.toString("hex") : undefined;
 };
-export const getRedeemScript = createSelector(getSpendContract, spendContract => spendContract.instantiated.redeemScript);
-export const getWitnessScript = createSelector(getSpendContract, spendContract => spendContract.instantiated.witnessScript);
-export const getScriptSig = createSelector(getSpendContract, spendContract => spendContract.instantiated.scriptSig);
+// export const getRedeemScript = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.redeemScript
+// )
+// export const getWitnessScript = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.witnessScript
+// )
+// export const getScriptSig = createSelector(
+//   getSpendContract,
+//   spendContract => spendContract.instantiated.scriptSig
+// )
 export const getFulfilledSpendTransaction = createSelector(getInstantiated, getSpendTransaction, getSpendInputValues, getSpendClauseArgument, (instantiated, unfulfilledSpendTransaction, witnessArgs, spendClauseArgument) => {
     if (instantiated === undefined ||
         unfulfilledSpendTransaction === undefined ||
         witnessArgs === undefined) {
         return undefined;
     }
-    console.log('参数', instantiated);
-    console.log('参数', unfulfilledSpendTransaction);
-    console.log('参数', witnessArgs);
-    console.log('参数', spendClauseArgument);
     const spendTransaction = fulfill(instantiated, unfulfilledSpendTransaction, witnessArgs, spendClauseArgument);
     return spendTransaction;
 });
@@ -170,7 +172,6 @@ export const getResult = createSelector(getSpendInputValues, getFulfilledSpendTr
         tx.check();
     }
     catch (e) {
-        console.log(e);
         return {
             success: false,
             style: "danger",
@@ -187,7 +188,6 @@ export const areSpendInputsValid = createSelector(getSpendInputMap, getClausePar
         return true;
     }
     catch (e) {
-        // console.log(e)
         return false;
     }
 });

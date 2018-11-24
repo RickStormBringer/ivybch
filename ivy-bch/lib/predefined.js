@@ -6,19 +6,17 @@ const instantiate_1 = require("./instantiate");
 const spend_1 = require("./spend");
 const spend_2 = require("./spend");
 exports.DEMO_ID_LIST = [
-    // "LockWithPublicKey",
+    // "LockWithData",
     "LockWithMultisig",
     "LockWithPublicKeyHash",
     "RevealPreimage",
-    // "RevealCollision",
     "RevealFixedPoint",
     "LockUntil",
     "LockDelay",
     "TransferWithTimeout",
     "EscrowWithDelay",
     "VaultSpend",
-    "HTLC",
-    "LockWithData"
+    "HTLC"
 ];
 exports.DEMO_CONTRACTS = {
     LockWithPublicKey: `contract LockWithPublicKey(publicKey: PublicKey, val: Value) {

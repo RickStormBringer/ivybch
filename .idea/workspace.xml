@@ -3,9 +3,51 @@
   <component name="ChangeListManager">
     <list default="true" id="5151d00e-a3d7-40a1-b94f-d7a265da2ff6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcoin" beforeDir="false" afterPath="$PROJECT_DIR$/bcoin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bitcoin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bitcoin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bitcoin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bitcoin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-bch/lib/predefined.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/lib/predefined.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-bch/lib/predefined.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/lib/predefined.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-bch/src/predefined.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/src/predefined.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-bch/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/app/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/app/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/app/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/app/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/argsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/argsDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/parameters.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/parameters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/unlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/unlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/editorOutTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/editorOutTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/loadTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/loadTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lockButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lockButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/opcodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/opcodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/argsDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/argsDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/inputs/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/inputs/data.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/inputs/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/inputs/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/webpack.production.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/webpack.production.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,14 +114,77 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1899832307">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TsLintLanguageService" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="2" />
+          <entry key="js" value="12" />
+          <entry key="json" value="5" />
+          <entry key="md" value="1" />
+          <entry key="ts" value="3" />
+          <entry key="tsx" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="TypeScript" value="3" />
+          <entry key="TypeScript JSX" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="8" />
+          <entry key="js" value="18" />
+          <entry key="json" value="3" />
+          <entry key="ts" value="14" />
+          <entry key="tsx" value="160" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="18" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="TypeScript" value="14" />
+          <entry key="TypeScript JSX" value="160" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ivy-bitcoin/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ivy-playground/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="110">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -88,27 +193,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bcoin.Chain</find>
-      <find>Amount</find>
-      <find>URI</find>
-      <find>coins</find>
-      <find>bcoin_1.coins</find>
-      <find>Coins</find>
-      <find>CoinView</find>
-      <find>mempool</find>
-      <find>bcoin_1.template</find>
-      <find>Template</find>
-      <find>bcoin_1.po</find>
-      <find>bcoin_1.Nod</find>
-      <find>bcoin_1.full</find>
-      <find>bcoin_1.spvnode</find>
-      <find>NetAddress</find>
-      <find>crypto_1</find>
-      <find>bcoin</find>
-      <find>KeyRing</find>
-      <find>random</find>
-      <find>bcrypto</find>
-      <find>bcoin_1</find>
       <find>randomBytes</find>
       <find>random.randomBytes</find>
       <find>bcoin_1.crypto</find>
@@ -118,6 +202,27 @@
       <find>bcoin_1.walletdb</find>
       <find>indexer</find>
       <find>main</find>
+      <find>...t</find>
+      <find>ivybch</find>
+      <find>from &quot;ivy-bitcoin&quot;</find>
+      <find>ivy-bitcoin</find>
+      <find>ivy-bch</find>
+      <find>getRedeemScript</find>
+      <find>redeemScript</find>
+      <find>bitcoin-playground.bundle.j</find>
+      <find>dropdownMenu1</find>
+      <find>idList</find>
+      <find>Create Contract</find>
+      <find>© 2017 Chain Inc. Built using</find>
+      <find>page-footer</find>
+      <find>console.log</find>
+      <find>console</find>
+      <find>inputMap2</find>
+      <find>valuesArgs</find>
+      <find>test_script</find>
+      <find>UglifyJsPlugin</find>
+      <find>Bitcoin Script</find>
+      <find>Bitcoin</find>
     </findStrings>
     <replaceStrings>
       <replace>bcoin_1.Opcode</replace>
@@ -129,6 +234,8 @@
       <replace>instantiate</replace>
       <replace>bcoin_1.Script</replace>
       <replace>coinview</replace>
+      <replace>from &quot;ivy-bch&quot;</replace>
+      <replace>ivy-bch</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ivy-playground/src/contracts</dir>
@@ -142,25 +249,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/ace.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/lockedValue.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/editor.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" />
         <option value="$PROJECT_DIR$/ivy-bitcoin/src/index.ts" />
         <option value="$PROJECT_DIR$/ivy-bitcoin/src/predefined.ts" />
         <option value="$PROJECT_DIR$/ivy-bitcoin/src/spend.ts" />
@@ -174,10 +267,30 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bcash/.gitignore" />
         <option value="$PROJECT_DIR$/ivy-bitcoin/.gitignore" />
-        <option value="$PROJECT_DIR$/ivy-playground/.gitignore" />
         <option value="$PROJECT_DIR$/bcash/package.json" />
         <option value="$PROJECT_DIR$/bcash/lib/bcoin-browser.js" />
         <option value="$PROJECT_DIR$/ivy-bitcoin/package.json" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/webpack.config.js" />
+        <option value="$PROJECT_DIR$/ivy-bch/src/predefined.ts" />
+        <option value="$PROJECT_DIR$/ivy-playground/package.json" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/webpack.production.config.js" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/.gitignore" />
       </list>
     </option>
   </component>
@@ -188,15 +301,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/bcash/node_modules" />
-    <handled-path value="$PROJECT_DIR$/ivy-bitcoin/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ivy-bch/node_modules" />
     <handled-path value="$PROJECT_DIR$/ivy-playground/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/bcash/package.json" />
       <path value="$PROJECT_DIR$/docs/package.json" />
-      <path value="$PROJECT_DIR$/ivy-bitcoin/package.json" />
+      <path value="$PROJECT_DIR$/ivy-bch/package.json" />
       <path value="$PROJECT_DIR$/ivy-playground/package.json" />
     </packageJsonPaths>
   </component>
@@ -216,26 +327,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="ivy-bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ivybch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ivybch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ivy-bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ivy-bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ivy-bitcoin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="ivy-bitcoin" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="ivybch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ivybch" type="462c0819:PsiDirectoryNode" />
+              <item name="ivy-playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +353,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ivy-playground/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ivy-bch/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,11 +390,13 @@
       <workItem from="1542419967748" duration="16477000" />
       <workItem from="1542692153692" duration="19000" />
       <workItem from="1542692177820" duration="3771000" />
+      <workItem from="1543028128895" duration="1862000" />
+      <workItem from="1543031025265" duration="3937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92977000" />
+    <option name="totallyTimeSpent" value="98776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,6 +409,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22339676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,333 +438,249 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/components/unlockButton.tsx">
+    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/js/random.js" />
+    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/bcrypto.js" />
+    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/native/random.js" />
+    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/random.js" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/crypto.ts" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/instantiate.js" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/bcash/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/instantiate.ts" />
+    <entry file="file://$PROJECT_DIR$/bcash/webpack.browser.js" />
+    <entry file="file://$PROJECT_DIR$/bcash/node_modules/bcrypto/lib/bcrypto.js" />
+    <entry file="file://$PROJECT_DIR$/bcash/lib/bcoin-browser.js" />
+    <entry file="file://$PROJECT_DIR$/bcoin/webpack.browser.js" />
+    <entry file="file://$PROJECT_DIR$/bcoin/package.json" />
+    <entry file="file://$PROJECT_DIR$/bcash/package.json" />
+    <entry file="file://$PROJECT_DIR$/bcoin/lib/bcoin-browser.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/lib/bcoin-browser.js" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/package.json" />
+    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/package.json" />
+    <entry file="file://$PROJECT_DIR$/ivy-bch/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/actions.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="96" column="34" lean-forward="true" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-bch/lib/predefined.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/public/bitcoin-playground.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="2837" column="84705" selection-start-line="2837" selection-start-column="84705" selection-end-line="2837" selection-end-column="84705" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-bch/src/predefined.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/lib/templates/components/editorOutTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="317" column="41" lean-forward="true" selection-start-line="317" selection-start-column="41" selection-end-line="317" selection-end-column="41" />
+        <state relative-caret-position="1087">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#78#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#20#61#0" expanded="true" />
+            <element signature="e#375#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/types.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ivy-playground/src/entry.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="522">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/test/test.ts">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="241">
+          <caret line="316" column="47" selection-start-line="316" selection-start-column="40" selection-end-line="316" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/lib/script/index.js">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="196">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/lib/script/script.js">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/editor.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/instantiate.ts" />
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/script/opcode.js">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="435" column="25" lean-forward="true" selection-start-line="435" selection-start-column="25" selection-end-line="435" selection-end-column="25" />
+        <state relative-caret-position="449">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/bcoin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/lib/primitives/address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="639" column="25" lean-forward="true" selection-start-line="639" selection-start-column="25" selection-end-line="639" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/spend.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/predefined.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="290" column="5" lean-forward="true" selection-start-line="290" selection-start-column="5" selection-end-line="290" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/script/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/script/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1439" column="16" selection-start-line="1439" selection-start-column="2" selection-end-line="1439" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/primitives/keyring.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/crypto.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/predefined.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/spend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/mempool/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/mining/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/mempool/mempool.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/crypto/bn.js" />
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/crypto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/spend.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/js/random.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/bcrypto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/native/random.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/random.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/crypto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/lib/instantiate.js">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="20" />
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/webpack.production.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcash/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/src/instantiate.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcash/webpack.browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcash/node_modules/bcrypto/lib/bcrypto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcash/lib/bcoin-browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/webpack.browser.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcash/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcoin/lib/bcoin-browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="419">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48" />
+        <state relative-caret-position="216">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#15#101#0" expanded="true" />
+            <element signature="e#283#337#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ivy-playground/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="110">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/lib/bcoin-browser.js">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/node_modules/bcoin/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-bitcoin/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="603">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
         </state>
       </provider>
     </entry>

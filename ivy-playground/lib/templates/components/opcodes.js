@@ -13,7 +13,7 @@ const mapStateToBytecodeProps = state => {
 };
 const OpcodesUnconnected = ({ opcodes, isBch }) => {
     return (React.createElement("div", { className: "panel-body inner" },
-        React.createElement("h1", null, isBch ? 'Bitcoin Cash Script' : 'Bitcoin Script'),
+        React.createElement("h1", null, "Bitcoin Cash Script"),
         React.createElement("pre", { className: "wrap" }, opcodes.join(" "))));
 };
 const BytecodeUnconnected = ({ instantiated: { publicKey, witnessScript, redeemScript, testnetAddress } }) => {

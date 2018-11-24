@@ -43,7 +43,7 @@ export const Unlock = ({ error, display, result }) => {
                 React.createElement("h4", null, "Contract Template"),
                 React.createElement(DisplaySpendContract, null)),
             React.createElement("section", null,
-                React.createElement("h4", null, "Bitcoin Script"),
+                React.createElement("h4", null, "Bitcoin Cash Script"),
                 React.createElement(DisplayInstructions, null)),
             React.createElement(SpendInputs, null)));
         details = (React.createElement(Section, { name: "Unlock" },

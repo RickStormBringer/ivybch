@@ -9,7 +9,6 @@ import { Col, Grid, Row } from "react-bootstrap";
 import { getCreateability, getCreateability2 } from "../selectors";
 const LockButton = (props) => {
     const { isTwo } = props;
-    console.log('createability2', props.createability2);
     const button = (React.createElement("button", { className: "btn btn-primary btn-lg form-button", disabled: !props.createability.createable || !props.createability2.createable, onClick: isTwo ? props.create2 : props.create }, "Create"));
     if (props.createability.createable && props.createability2.createable) {
         return (React.createElement(Grid, null,

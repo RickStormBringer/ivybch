@@ -4,7 +4,7 @@ import {
   createSignature,
   crypto,
   isHash
-} from "ivy-bitcoin"
+} from "ivy-bch"
 
 import {
   ContractParameterType,

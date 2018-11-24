@@ -47,7 +47,6 @@ export default function reducer(state = INITIAL_STATE, action) {
         }
         case CREATE_CONTRACT: {
             const instantiated = action.instantiated;
-            console.log('instantiated', instantiated);
             if (instantiated.fundingTransaction === undefined) {
                 throw new Error("did not expect funding transaction to be undefined");
             }

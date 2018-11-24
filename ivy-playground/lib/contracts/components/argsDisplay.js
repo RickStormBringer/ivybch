@@ -1,5 +1,5 @@
 // external imports
-import { typeToString } from "ivy-bitcoin";
+import { typeToString } from "ivy-bch";
 import React from "react";
 import { connect } from "react-redux";
 import { computeDataForInput, getGenerateBytesInputValue, getParameterIdentifier } from "../../inputs/data";

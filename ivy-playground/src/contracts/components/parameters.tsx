@@ -1,4 +1,4 @@
-import { typeToString } from "ivy-bitcoin"
+import { typeToString } from "ivy-bch"
 import * as momentImport from "moment"
 // external imports
 import React from "react"
@@ -109,7 +109,6 @@ function ParameterWidget(props: {
   // handle the fact that clause arguments look like spend.sig rather than sig
   const parameterName = getParameterIdentifier(props.input)
   const valueType = typeToString(props.input.valueType)
-  console.log(props.input)
   return (
     <div key={props.input.name}>
       <label>
@@ -315,7 +314,7 @@ function ProvidePrivateKeyWidget(props: {
   return (
     <div>
       <TextWidget input={props.input} handleChange={props.handleChange} />
-      <HelpBlock>(Do not paste your own Bitcoin private key here)</HelpBlock>
+      <HelpBlock>(Do not paste your own Bitcoin Cash private key here)</HelpBlock>
     </div>
   )
 }

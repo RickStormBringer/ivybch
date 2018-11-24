@@ -1,5 +1,5 @@
 // external imports
-import { instantiate } from "ivy-bitcoin"
+import { instantiate } from "ivy-bch"
 import { createSelector } from "reselect"
 import { getContract } from "../contracts/selectors"
 
@@ -12,7 +12,6 @@ import { getChild, Input, InputMap } from "../inputs/types"
 import { SourceMap, TemplateState } from "./types"
 
 export const getTemplateState = (state: AppState): TemplateState => {
-    console.log('state', state)
     return state.templates
 
 }
@@ -110,7 +109,6 @@ export const areInputsValid = createSelector(
       })
       return true
     } catch (e) {
-      // console.log(e)
       return false
     }
   }
@@ -128,7 +126,6 @@ export const areInputsValid2 = createSelector(
             })
             return true
         } catch (e) {
-            // console.log(e)
             return false
         }
     }
@@ -161,7 +158,6 @@ export const getContractArgs = createSelector(
       }
       return contractArgs
     } catch (e) {
-      // console.log(e)
       return undefined
     }
   }
@@ -188,7 +184,6 @@ export const getContractArgs2 = createSelector(
             }
             return contractArgs
         } catch (e) {
-            // console.log(e)
             return undefined
         }
     }

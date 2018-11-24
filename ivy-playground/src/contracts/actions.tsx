@@ -1,11 +1,6 @@
 // external imports
 import { push } from "react-router-redux"
 
-// ivy imports
-import {
-  setSource,
-  updateError as updateCreateError
-} from "../templates/actions"
 import {
   getCompiled,
   getCompiled2,
@@ -15,8 +10,6 @@ import {
   getInstantiated2,
   getSource
 } from "../templates/selectors"
-
-import { compile } from "ivy-bitcoin"
 
 // internal imports
 import {
@@ -106,9 +99,7 @@ export const spend = () => {
       })
     } else {
       throw Error("spend called with invalid contract")
-      // console.log(result)
     }
-    console.log('fulfill', spendTx)
     dispatch(push("/unlock"))
   }
 }
