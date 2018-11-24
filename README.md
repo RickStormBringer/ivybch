@@ -2,7 +2,7 @@
 
 Ivy is a higher-level language that allows you to write smart contracts for the Bitcoin Cash protocol. It can compile to instructions for Bitcoin Cash’s virtual machine, Bitcoin Cash Script, and can be used to create  Bitcoin Cash addresses.
 
-You can try out Ivy using the [Ivy Playground for Bitcoin](https://ivy.copernet.io), which allows you to create test contracts and try spending them, all in a sandboxed environment.
+You can try out Ivy using the [Ivy Playground for Bitcoin Cash](https://ivy.copernet.io), which allows you to create test contracts and try spending them, all in a sandboxed environment.
 
 You can learn more about Ivy and using the Ivy Playground for Bitcoin Cash by reading the [docs](https://ivy.copernet.io/docs).
 

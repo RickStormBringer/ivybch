@@ -1,9 +1,9 @@
 {
   "name": "ivy-playground",
-  "description": "Sandbox for testing Ivy for Bitcoin.",
+  "description": "Sandbox for testing Ivy for Bitcoin Cash",
   "version": "0.0.1",
   "bugs": {
-    "url": "https://github.com/copernet/ivybch/issues",
+    "url": "https://github.com/copernet/ivybch/issues"
   },
   "dependencies": {
     "@types/node": "^7.0.46",
