@@ -1,14 +1,10 @@
 # JavaScript SDK
 
-Ivy is also available as a (very unstable and early-stage) [JavaScript SDK](https://www.npmjs.com/package/ivy-bitcoin).
+Ivy is also available as a (very unstable and early-stage) [JavaScript SDK](https://github.com/copernet/ivybch/tree/main/ivy-bch).
 
-```
-npm install ivy-bitcoin
-```
+This library allows you to write and compile contract templates, instantiate them with arguments (to create BitcoinCash addresses), create dummy contracts (with fake value), and unlock them with arguments.
 
-This library allows you to write and compile contract templates, instantiate them with arguments (to create Bitcoin addresses), create dummy contracts (with fake value), and unlock them with arguments.
-
-It does not support creating real transactions (on either the testnet or mainnet). Do not try to send BTC to addresses created by this library.
+It does not support creating real transactions (on either the testnet or mainnet). Do not try to send BCH to addresses created by this library.
 
 ```js
 import {
@@ -19,7 +15,7 @@ import {
   toSighash,
   createSignature,
   crypto
-} from "ivy-bitcoin"
+} from "ivy-bch"
 
 const source = `contract LockWithPublicKey(publicKey: PublicKey, val: Value) {
   clause spend(sig: Signature) {
@@ -41,7 +37,7 @@ const template = compile(source)
 const instantiated = instantiate(template, [publicKey, amount])
 
 // get the testnet and mainnet addresses corresponding to the contract
-// note: any BTC sent to these addresses may not be recoverable!
+// note: any BCH sent to these addresses may not be recoverable!
 console.log(instantiated.testnetAddress)
 console.log(instantiated.mainnetAddress)
 
@@ -65,4 +61,4 @@ const fulfilledTransaction = fulfill(instantiated, spendTransaction, [sig], "spe
 fulfilledTransaction.check()
 ```
 
-For more examples of how to use the library, see the [tests](https://github.com/ivy-lang/ivy-bitcoin/blob/main/ivy-bitcoin/src/test/test.ts).
+For more examples of how to use the library, see the [tests](https://github.com/copernet/ivybch/blob/main/ivy-bch/src/test/test.ts).

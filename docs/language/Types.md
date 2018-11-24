@@ -1,6 +1,6 @@
 # Types
 
-The following argument types are supported when compiling Ivy to Bitcoin Script:
+The following argument types are supported when compiling Ivy to BitcoinCash Script:
 
 * **Bytes**: a string of bytes (typically represented in hexadecimal)
 
@@ -16,7 +16,7 @@ The following argument types are supported when compiling Ivy to Bitcoin Script:
 
 * **Number**: an integer between -2147483647 and 2147483647, inclusive.
 
-* **Value**: Some amount of Bitcoins (or, more precisely, some amount of satoshis). Parameters of type *Value* represent actual Bitcoins that are locked up in a contract.
+* **Value**: Some amount of BitcoinCashs (or, more precisely, some amount of satoshis). Parameters of type *Value* represent actual BitcoinCashs that are locked up in a contract.
 
 * **HashableType**: any type which can be passed to hash functions: **Bytes**, **PublicKey**, **Sha256(T)**, **Sha1(T)**, and **Ripemd160(T)**.
 
