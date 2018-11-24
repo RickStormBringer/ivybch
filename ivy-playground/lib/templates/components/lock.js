@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 // ivy imports
 import Section from "../../app/components/section";
 import { ContractParameters, ContractParametersTwo } from "../../contracts/components/parameters";
-import { Bytecode } from "./opcodes";
 // internal imports
 import { getContractParameters, getError, getInstantiated, getSource } from "../selectors";
 import Editor from "./editor";
@@ -46,7 +45,6 @@ const Lock = ({ source, contractParameters, error, bytecode, chosenTem }) => {
                     React.createElement("div", { className: "form-wrapper" },
                         React.createElement(ContractParameters, null)),
                     React.createElement("div", { className: "form-wrapper" }, error ? React.createElement(ErrorAlert, { error: error }) : React.createElement("div", null)))) : (React.createElement("div", null)),
-                bytecode ? (React.createElement(Section, { name: "Address" }, error ? React.createElement("div", null) : React.createElement(Bytecode, null))) : (React.createElement("div", null)),
                 React.createElement(LockButton, null)));
         }
     }

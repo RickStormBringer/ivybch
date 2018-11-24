@@ -3,51 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5151d00e-a3d7-40a1-b94f-d7a265da2ff6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bch/lib/predefined.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/lib/predefined.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bch/lib/predefined.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/lib/predefined.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bch/src/predefined.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/src/predefined.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-bch/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-bch/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/app/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/app/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ivy-playground/lib/app/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/app/components/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/argsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/argsDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/parameters.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/parameters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/unlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/components/unlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/contracts/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/contracts/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/editorOutTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/editorOutTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/loadTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/loadTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lockButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lockButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/opcodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/opcodes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lock.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/lib/templates/components/lock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/argsDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/argsDisplay.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/parameters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/selectors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/contracts/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/inputs/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/inputs/data.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/inputs/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/inputs/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/editorOutTwo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/loadTemplate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivy-playground/webpack.production.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/webpack.production.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -136,7 +95,7 @@
           <entry key="json" value="5" />
           <entry key="md" value="1" />
           <entry key="ts" value="3" />
-          <entry key="tsx" value="28" />
+          <entry key="tsx" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -146,7 +105,7 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="3" />
-          <entry key="TypeScript JSX" value="28" />
+          <entry key="TypeScript JSX" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -155,7 +114,7 @@
           <entry key="js" value="18" />
           <entry key="json" value="3" />
           <entry key="ts" value="14" />
-          <entry key="tsx" value="160" />
+          <entry key="tsx" value="255" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -164,7 +123,7 @@
           <entry key="JavaScript" value="18" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="TypeScript" value="14" />
-          <entry key="TypeScript JSX" value="160" />
+          <entry key="TypeScript JSX" value="255" />
         </counts>
       </usages-collector>
     </session>
@@ -172,19 +131,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ivy-playground/package.json">
+        <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="18" selection-start-line="18" selection-end-line="19" />
+            <state relative-caret-position="2">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="e#20#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
+        <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="90" selection-end-column="32" />
+              <folding>
+                <element signature="e#141#191#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,10 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>randomBytes</find>
-      <find>random.randomBytes</find>
-      <find>bcoin_1.crypto</find>
-      <find>instantiate</find>
       <find>bcoin_1.c</find>
       <find>bcoin_1.pro</find>
       <find>bcoin_1.walletdb</find>
@@ -223,6 +193,10 @@
       <find>UglifyJsPlugin</find>
       <find>Bitcoin Script</find>
       <find>Bitcoin</find>
+      <find>This is a Pay-To-Witness-Script-Hash address.</find>
+      <find>This is a</find>
+      <find>BytecodeUnconnected</find>
+      <find>Bytecode</find>
     </findStrings>
     <replaceStrings>
       <replace>bcoin_1.Opcode</replace>
@@ -250,7 +224,6 @@
       <list>
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/ace.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/lib/templates/reducer.js" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/lockedValue.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/app/actions.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/editor.tsx" />
@@ -275,7 +248,6 @@
         <option value="$PROJECT_DIR$/ivy-playground/webpack.config.js" />
         <option value="$PROJECT_DIR$/ivy-bch/src/predefined.ts" />
         <option value="$PROJECT_DIR$/ivy-playground/package.json" />
-        <option value="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/app/components/root.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/selectors.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lockButton.tsx" />
@@ -291,6 +263,8 @@
         <option value="$PROJECT_DIR$/ivy-playground/src/contracts/components/unlock.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx" />
         <option value="$PROJECT_DIR$/ivy-playground/.gitignore" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx" />
+        <option value="$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx" />
       </list>
     </option>
   </component>
@@ -391,12 +365,12 @@
       <workItem from="1542692153692" duration="19000" />
       <workItem from="1542692177820" duration="3771000" />
       <workItem from="1543028128895" duration="1862000" />
-      <workItem from="1543031025265" duration="3937000" />
+      <workItem from="1543031025265" duration="5740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98776000" />
+    <option name="totallyTimeSpent" value="100579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,7 +412,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/js/random.js" />
     <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/bcrypto.js" />
     <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/native/random.js" />
     <entry file="file://$PROJECT_DIR$/bcoin/node_modules/bcrypto/lib/random.js" />
@@ -513,13 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -610,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/editor.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -670,6 +629,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ivy-playground/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -677,10 +643,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy-playground/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/app/components/navbar.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        <state relative-caret-position="2">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/opcodes.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy-playground/src/templates/components/lock.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="90" selection-end-column="32" />
+          <folding>
+            <element signature="e#141#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

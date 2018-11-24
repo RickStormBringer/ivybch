@@ -26,8 +26,11 @@ const Navbar = (props: { path: string }) => {
     <nav className="navbar navbar-inverse navbar-static-top">
       <div className="container fixedcontainer">
         <div className="navbar-header">
-          <Link to="/create" className="navbar-brand">
-          </Link>
+            <Link to="/create" className="navbar-brand">
+                <div style={{lineHeight: '30px'}}>
+                    Ivy Playground for Bitcoin Cash
+                </div>
+            </Link>
         </div>
         <ReactTooltip
           id="seedButtonTooltip"

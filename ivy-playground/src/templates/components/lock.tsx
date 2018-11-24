@@ -92,11 +92,11 @@ const Lock = ({ source, contractParameters, error, bytecode, chosenTem }) => {
                   ) : (
                       <div />
                   )}
-                  {bytecode ? (
-                      <Section name="Address">{error ? <div /> : <Bytecode />}</Section>
-                  ) : (
-                      <div />
-                  )}
+                  {/*{bytecode ? (*/}
+                      {/*<Section name="Address">{error ? <div /> : <Bytecode />}</Section>*/}
+                  {/*) : (*/}
+                      {/*<div />*/}
+                  {/*)}*/}
                   <LockButton />
               </div>
           )
