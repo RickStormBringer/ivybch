@@ -78,7 +78,7 @@ function NumberWidget(props) {
 function ValueWidget(props) {
     return (React.createElement(InputGroup, { style: { width: "300px" } },
         React.createElement(FormControl, { type: "text", className: "string-input", placeholder: "0.0", key: props.input.name, value: props.input.value, onChange: props.handleChange }),
-        React.createElement(InputGroup.Addon, null, "BTC (simulated)")));
+        React.createElement(InputGroup.Addon, null, "BCH (simulated)")));
 }
 function TimestampTimeWidget(props) {
     return (React.createElement("div", { className: "form-group" },

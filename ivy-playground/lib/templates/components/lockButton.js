@@ -9,7 +9,10 @@ import { Col, Grid, Row } from "react-bootstrap";
 import { getCreateability, getCreateability2 } from "../selectors";
 const LockButton = (props) => {
     const { isTwo } = props;
-    const button = (React.createElement("button", { className: "btn btn-primary btn-lg form-button", disabled: !props.createability.createable || !props.createability2.createable, onClick: isTwo ? props.create2 : props.create }, "Create"));
+    const button = (props.chosenTem !== 'CheckDataSig' ?
+        React.createElement("button", { className: "btn btn-primary btn-lg form-button", disabled: !props.createability.createable || !props.createability2.createable, onClick: isTwo ? props.create2 : props.create }, "Create")
+        :
+            React.createElement("div", null));
     if (props.createability.createable && props.createability2.createable) {
         return (React.createElement(Grid, null,
             React.createElement(Row, null,
@@ -26,4 +29,5 @@ const LockButton = (props) => {
 export default connect(state => ({
     createability: getCreateability(state),
     createability2: getCreateability2(state),
+    chosenTem: state.templates.chosenTemplate
 }), { create, create2 })(LockButton);
