@@ -2,22 +2,19 @@
 
 Below are some examples of contract templates written in Ivy. You can try out these contracts in the playground, where they are preloaded as default templates.
 
-* [LockWithPublicKey](#lockwithpublickey)
-* [LockWithMultiSig](#lockwithmultisig)
-* [LockWithPublicKeyHash](#lockwithpublickeyhash)
-* [RevealPreimage](#revealpreimage)
-* [RevealCollision](#revealcollision)
-* [RevealFixedPoint](#revealfixedpoint)
-* [LockUntil](#lockuntil)
-* [LockDelay](#lockdelay)
-* [TransferWithTimeout](#transferwithtimeout)
-* [EscrowWithDelay](#escrowwithdelay)
-* [VaultSpend](#vaultspend)
-* [HTLC](#htlc)
+- [Example Contracts](#example-contracts)
+  - [LockWithMultiSig](#lockwithmultisig)
+  - [LockWithPublicKeyHash](#lockwithpublickeyhash)
+  - [RevealPreimage](#revealpreimage)
+  - [RevealFixedPoint](#revealfixedpoint)
+  - [LockUntil](#lockuntil)
+  - [LockDelay](#lockdelay)
+  - [TransferWithTimeout](#transferwithtimeout)
+  - [EscrowWithDelay](#escrowwithdelay)
+  - [VaultSpend](#vaultspend)
+  - [HTLC](#htlc)
 
-These contracts demonstrate the following conditions supported by Bitcoin Script:
-
-* Requiring a signature corresponding to a prespecified public key (see [LockWithPublicKey](#lockwithpublickey))
+These contracts demonstrate the following conditions supported by BitcoinCash Script:
 
 * Requiring M signatures corresponding to any of N prespecified public keys (see [LockWithMultisig](#lockwithmultisig))
 
@@ -27,22 +24,6 @@ These contracts demonstrate the following conditions supported by Bitcoin Script
 
 * Waiting until the contract has been on the blockchain for longer than a specified duration (see [LockDelay](#lockdelay),  [EscrowWithDelay](#escrowwithdelay)), [VaultSpend](#vaultspend))
 
-
-
-## LockWithPublicKey
-
-```
-contract LockWithPublicKey(publicKey: PublicKey, val: Value) {
-  clause spend(sig: Signature) {
-    verify checkSig(publicKey, sig)
-    unlock val
-  }
-}
-```
-
-LockWithPublicKey creates a simple Bitcoin address. A public key is specified at the time the contract is created. To spend from the contract, the user must provide a signature on the spending transaction from that public key.
-
-All Bitcoin addresses produced by the Ivy compiler are [SegWit addresses](https://bitcoincore.org/en/segwit_wallet_dev/). However, unlike the other contracts, which compile to Pay-To-Witness-Script-Hash addresses, LockWithPublicKey compiles to a Pay-To-Witness-Public-Key-Hash address, a special (slightly more efficient) format for addresses that are controlled by a single public key.
 
 ## LockWithMultiSig
 
@@ -76,7 +57,7 @@ contract LockWithPublicKeyHash(pubKeyHash: Sha256(PublicKey), val: Value) {
 
 LockWithPublicKeyHash is similar to the [LockWithPublicKey](#lockwithpublickey) contract, except instead of taking a public key as a contract argument, it takes the SHA256 hash of that public key. Then, when it is spent, it expects an additional argument, the public key. The public key is hashed and compared to the `pubKeyHash` contract argument before the signature is checked.
 
-There is not much reason to use this contract, particularly since modern Bitcoin addresses only reveal a hash of their script anyway, so their contract arguments are never explicitly revealed. Indeed, the `publicKey` argument to the [LockWithPublicKey](#lockwithpublickey) contract is hashed [four times](https://bitcoincore.org/en/segwit_wallet_dev/#creation-of-p2sh-p2wpkh-address) before it included in the generated address.
+There is not much reason to use this contract, particularly since modern BitcoinCash addresses only reveal a hash of their script anyway, so their contract arguments are never explicitly revealed. Indeed, the `publicKey` argument to the [LockWithPublicKey](#lockwithpublickey) contract is hashed [four times](https://bitcoincore.org/en/segwit_wallet_dev/#creation-of-p2sh-p2wpkh-address) before it included in the generated address.
 
 ## RevealPreimage
 
@@ -92,24 +73,6 @@ contract RevealPreimage(hash: Sha256(Bytes), val: Value) {
 RevealPreimage can be unlocked by providing the preimage for a prespecified SHA256 hash digest.
 
 This contract is typically not useful, since unlike a signature, a hash preimage is not tied to a specific spending transaction. If you tried to spend this contract by revealing the preimage, there would be nothing to stop a miner who saw your transaction from replacing it with a transaction that uses that preimage to unlock the contract and spend it to themselves.
-
-## RevealCollision
-
-```
-contract RevealCollision(val: Value) {
-  clause reveal(string1: Bytes, string2: Bytes) {
-    verify string1 != string2
-    verify sha1(string1) == sha1(string2)
-    unlock val
-  }
-}
-```
-
-RevealCollision pays a reward to anyone who provides a SHA1 collision—two different bytestrings whose SHA1 hashes are equal.
-
-Peter Todd used this script to [post a bounty](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2013-September/003253.html) on collisions for several hash functions. When a SHA1 collision was [found in February 2017](https://shattered.io/), someone used that collision to [claim the bounty](https://tradeblock.com/bitcoin/tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc).
-
-As with the [RevealPreimage](#revealpreimage) contract, any attempt to spend this contract could potentially be sniped by miners.
 
 ## RevealFixedPoint
 
@@ -140,7 +103,7 @@ contract LockUntil(publicKey: PublicKey, time: Time, val: Value) {
 
 LockUntil is similar to [LockWithPublicKey](#lockwithpublickey), but adds an additional condition known as a timelock—it can only be spent after a particular time has passed.
 
-Absolute timelocks (which use the [nLockTime](https://en.bitcoin.it/wiki/NLockTime) field of the spending transaction and the [CHECKLOCKTIMEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) opcode) can be used to prevent yourself from withdrawing Bitcoin before a certain time. They are also useful for some more sophisticated applications, such as [escrow](#escrowwithdelay) or [payment channels](#transferwithtimeout).
+Absolute timelocks (which use the [nLockTime](https://en.bitcoin.it/wiki/NLockTime) field of the spending transaction and the [CHECKLOCKTIMEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) opcode) can be used to prevent yourself from withdrawing BitcoinCash before a certain time. They are also useful for some more sophisticated applications, such as [escrow](#escrowwithdelay) or [payment channels](#transferwithtimeout).
 
 ## LockDelay
 
@@ -190,7 +153,7 @@ Alice can prefund this TransferWithTimeOut contract with 10 BTC, using her own p
 
 Alice can then send additional micropayments on this channel by creating new transactions that spend the same contract but send increasing amounts to Bob. Whenever Bob wants to close the channel, he signs and publishes only the *last* of those transactions, which sends Alice's total payment to him and returns the remaining change to her.
 
-What happens if Bob disappears, or refuses to sign any transactions? That's what the `timeout` clause is for. After the channel's expiration time, Alice can call the `timeout` clause to reclaim all of the Bitcoin she used to prefund the channel. This prevents Alice's money from being locked up forever if Bob refuses to cooperate.
+What happens if Bob disappears, or refuses to sign any transactions? That's what the `timeout` clause is for. After the channel's expiration time, Alice can call the `timeout` clause to reclaim all of the BitcoinCash she used to prefund the channel. This prevents Alice's money from being locked up forever if Bob refuses to cooperate.
 
 ## EscrowWithDelay
 
@@ -246,7 +209,7 @@ contract VaultSpend(
 }
 ```
 
-VaultSpend implements a simple form of [*vault*](http://fc16.ifca.ai/bitcoin/papers/MES16.pdf), a mechanism for securing Bitcoin held in cold storage.
+VaultSpend implements a simple form of [*vault*](http://fc16.ifca.ai/bitcoin/papers/MES16.pdf), a mechanism for securing BitcoinCash held in cold storage.
 
 This contract is instantiated with two public keys: a `hotKey` and a `coldKey`. The "hot key" could be kept on a computer or server; the "cold key"—or "cancellation key"—would be kept somewhere offline and hard to get to, such as a paper wallet in a safety deposit box.
 
@@ -256,7 +219,7 @@ To withdraw the funds, you could use the presigned transaction to move them into
 
 If an attacker compromises your server and steals the presigned transaction and hot key, they would only be able to move the money into this contract. The time delay would then give you enough time to notice, retrieve your cold key, and move the money to a safer contract.
 
-The [initial design](http://fc16.ifca.ai/bitcoin/papers/MES16.pdf) for vaults by Möser, Eyal, and Sirer depended on a feature, covenants, that is not yet supported in Bitcoin Script. The implementation of vaults described above makes use of only existing Bitcoin Script features, but has some key limitations. Most importantly, an attacker who surreptitiously steals the hot key could wait for the owner to attempt a hot-key withdrawal, then, after the delay has expired, spend the transaction before the owner is able to. Until Bitcoin adds support for covenants (if ever), it may not be possible to fully implement a vault.
+The [initial design](http://fc16.ifca.ai/bitcoin/papers/MES16.pdf) for vaults by Möser, Eyal, and Sirer depended on a feature, covenants, that is not yet supported in BitcoinCash Script. The implementation of vaults described above makes use of only existing BitcoinCash Script features, but has some key limitations. Most importantly, an attacker who surreptitiously steals the hot key could wait for the owner to attempt a hot-key withdrawal, then, after the delay has expired, spend the transaction before the owner is able to. Until BitcoinCash adds support for covenants (if ever), it may not be possible to fully implement a vault.
 
 ## HTLC
 
@@ -281,7 +244,7 @@ contract HTLC(
 }
 ```
 
-HTLC is an implementation of a Hashed Timelock Contract, a construction that can be used to enable trustless exchanges of cryptocurrencies on completely different blockchain networks (such as trading Bitcoin for Ether), as well as multihop payments on payment channel networks such as the Lightning Network.
+HTLC is an implementation of a Hashed Timelock Contract, a construction that can be used to enable trustless exchanges of cryptocurrencies on completely different blockchain networks (such as trading BitcoinCash for Ether), as well as multihop payments on payment channel networks such as the Lightning Network.
 
 Before an HTLC is created, one party, the `recipient`, generates a secret `preimage`, hashes it, and provides the hash, `hash`, to the other party, `sender`.
 
@@ -293,9 +256,9 @@ The power comes when you have  _two_ HTLCs that use the same preimage, and which
 
 This assurance, _atomicity_, is easy to achieve when both operations are occurring on the same ledger—you can just include both operations in a single atomic transaction. But HTLCs allow you to enforce atomicity of transactions across _multiple ledgers_, which do not need to know anything about each other (though they do each need to support hash locks and time locks.)
 
-These two ledgers can be separate blockchains, such as the Bitcoin and Ethereum networks, which means HTLCs can be used to make trustless trades of cryptocurrencies on different blockchains.
+These two ledgers can be separate blockchains, such as the BitcoinCash and Ethereum networks, which means HTLCs can be used to make trustless trades of cryptocurrencies on different blockchains.
 
-Alternatively, the two ledgers can be two different Bitcoin _payment channels_—off-chain bilateral ledgers which can be settled trustlessly to the main chain. (A simple payment channel is described [above](#transferwithtimeout).) This is how the Lightning Network allows multihop payments across a chain of payment channels.
+Alternatively, the two ledgers can be two different BitcoinCash _payment channels_—off-chain bilateral ledgers which can be settled trustlessly to the main chain. (A simple payment channel is described [above](#transferwithtimeout).) This is how the Lightning Network allows multihop payments across a chain of payment channels.
 
 Suppose Alice has a payment channel with Bob, and Bob has a payment channel with Charlie. If Alice wants to make a payment to Charlie over these channels, she can make a payment to Bob, and then Bob could make a payment to Charlie. However, how do Alice and Charlie guarantee that Bob won't cheat them, by receiving the payment from Alice but then neglecting to pay?
 

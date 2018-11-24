@@ -1,7 +1,7 @@
 {
-  "name": "ivy-bitcoin-docs",
+  "name": "ivy-bitcoincash-docs",
   "version": "0.0.1",
-  "description": "Docs for Ivy.",
+  "description": "Docs for Ivy",
   "main": "index.js",
   "scripts": {
     "build": "gitbook build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivy-lang/ivy-bitcoin.git"
+    "url": "git+https://github.com/copernet/ivybch.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivy-lang/ivy-bitcoin/issues"
+    "url": "https://github.com/copernet/ivybch/issues"
   },
-  "homepage": "https://github.com/ivy-lang/ivy-bitcoin#readme",
+  "homepage": "https://github.com/copernet/ivybch",
   "dependencies": {
     "gitbook-cli": "^2.3.2"
   }
